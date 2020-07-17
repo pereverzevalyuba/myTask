@@ -1,8 +1,8 @@
 var arr = [];
 for (var i = 1; i <= 10; i++) {
-var str = "";
+    var str = "";
 for (var j = 1; j <= i; j++) {
-str += i;
+    str += i;
 }
 arr.push(str);
 }

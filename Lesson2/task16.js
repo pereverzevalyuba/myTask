@@ -1,6 +1,5 @@
 var num = '748';
 
-toNine(num);
 function toNine (a) {
     var arr = a.spit('');
 var sum1 = 0;
@@ -14,3 +13,5 @@ var sum1 = 0;
     console.log(num);
     }
 }
+
+toNine(num);
