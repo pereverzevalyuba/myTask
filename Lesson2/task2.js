@@ -1,3 +1,3 @@
 var str = '123456';
 result = str.split('').reverse().join('');
-alert(result);
+console.log(result);

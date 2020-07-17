@@ -1,6 +1,6 @@
 var str = 'http://phphtml';
 if (str.substr(0, 7) == 'http://') {
-	alert('Да');
+	console.log('Да');
 } else {
-	alert('Нет');
+	console.log('Нет');
 }

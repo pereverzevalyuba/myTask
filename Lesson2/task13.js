@@ -12,4 +12,4 @@ var res = word.slice(0,1).toUpperCase() + word.slice(1);
 return res;
 }
 
-document.write(arr[0] + newArr.join(''));
+console.log(arr[0] + newArr.join(''));
