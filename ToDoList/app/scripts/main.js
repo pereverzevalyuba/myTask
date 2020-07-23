@@ -1,4 +1,4 @@
-import { keypress, ul_checked, pencil_show_hide, save_todo, clear_todo, tips, close } from "./clickers.js";
+import { keypress, ul_checked, pencil_show_hide, save_todo, clear_todo, tips, close, funsF, close2} from "./clickers.js";
 import { cat_facts } from "./cat_facts.js";
 
 // Document ready
@@ -15,6 +15,8 @@ $(document).ready(() => {
   clear_todo();
   tips();
   close();
+  funsF();
+  close2();
 
   // Load cat facts data
   cat_facts("https://cat-fact.herokuapp.com/facts/random?animal_type&amount=10")
@@ -33,6 +35,7 @@ $(document).ready(() => {
       console.log(ul_cat_facts);
     }
 
+
   // Delete todo if delete span clicked
   function deleteTodo() {
     for (let span of spans) {
@@ -48,6 +51,7 @@ $(document).ready(() => {
       ul.innerHTML = localStorage.getItem("todoList");
     }
   }
+
 
   deleteTodo();
   loadTodos();
