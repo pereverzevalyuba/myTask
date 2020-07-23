@@ -75,7 +75,7 @@ button:active {
 
 #totalTip:before {
   content: "Tip amount";
-  font-size: 20px;
+  font-size: 50px;
   font-weight: bold;
   display: block;
   text-transform: uppercase;
